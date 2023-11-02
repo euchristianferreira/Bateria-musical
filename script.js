@@ -3,7 +3,7 @@ document.body.addEventListener('keyup', (event) => {
 });
 
 document.querySelector('.composer button').addEventListener('click', () => {
-    let song = documentq.querySelector('#input').value;
+    let song = document.querySelector('#input').value;
 
     if (song !== '') {
         let songArray = song.split('');
